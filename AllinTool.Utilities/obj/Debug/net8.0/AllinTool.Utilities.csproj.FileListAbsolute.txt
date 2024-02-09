@@ -1,0 +1,14 @@
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\bin\Debug\net8.0\AllinTool.Utilities.deps.json
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\bin\Debug\net8.0\AllinTool.Utilities.runtimeconfig.json
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\bin\Debug\net8.0\AllinTool.Utilities.dll
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\bin\Debug\net8.0\AllinTool.Utilities.pdb
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\AllinTool.Utilities.csproj.AssemblyReference.cache
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\AllinTool.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\AllinTool.Utilities.AssemblyInfoInputs.cache
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\AllinTool.Utilities.AssemblyInfo.cs
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\AllinTool.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\AllinTool.Utilities.dll
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\refint\AllinTool.Utilities.dll
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\AllinTool.Utilities.pdb
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\AllinTool.Utilities.genruntimeconfig.cache
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\ref\AllinTool.Utilities.dll
