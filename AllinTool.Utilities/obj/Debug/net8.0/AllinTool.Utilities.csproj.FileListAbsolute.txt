@@ -12,3 +12,4 @@ C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\n
 C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\AllinTool.Utilities.pdb
 C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\AllinTool.Utilities.genruntimeconfig.cache
 C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\ref\AllinTool.Utilities.dll
+C:\Users\win 11\source\repos\AllinTool\AllinTool\AllinTool.Utilities\obj\Debug\net8.0\AllinTool.Utilities.sourcelink.json

@@ -12,7 +12,8 @@
           "AutoMapper": "13.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.1"
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.1",
+          "SixLabors.ImageSharp": "3.1.2"
         },
         "runtime": {
           "AllinTool.Data.dll": {}
@@ -671,6 +672,14 @@
           }
         }
       },
+      "SixLabors.ImageSharp/3.1.2": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.2.0"
+          }
+        }
+      },
       "System.CodeDom/4.4.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -1243,6 +1252,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PYdR6GUI+gW6LBaAQKTik0Ai8oLpFAz3a/KrVusxoTg3kf7F3cuIqKMhJGsuQcmDHCF+iD81Pyn4cexyHrb1ZA==",
+      "path": "sixlabors.imagesharp/3.1.2",
+      "hashPath": "sixlabors.imagesharp.3.1.2.nupkg.sha512"
     },
     "System.CodeDom/4.4.0": {
       "type": "package",

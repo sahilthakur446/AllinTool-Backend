@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AllinTool.Utilities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05ee3113b362cb9966930c95a7b7cbe3004f579d")]
 [assembly: System.Reflection.AssemblyProductAttribute("AllinTool.Utilities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AllinTool.Utilities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
