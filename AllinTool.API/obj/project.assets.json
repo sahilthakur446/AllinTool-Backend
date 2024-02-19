@@ -929,6 +929,19 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "NUglify/1.21.4": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/NUglify.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/NUglify.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "SixLabors.ImageSharp/3.1.2": {
         "type": "package",
         "compile": {
@@ -1605,6 +1618,7 @@
           "AllinTool.Utilities": "1.0.0",
           "AutoMapper": "13.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1",
+          "NUglify": "1.21.4",
           "SixLabors.ImageSharp": "3.1.2"
         },
         "compile": {
@@ -3294,6 +3308,28 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "NUglify/1.21.4": {
+      "sha512": "MpliYRCSB42dQA9VgHoe6ahgDS4NIDUSr5e+seeHx6GEwLUvIaJ2JZKqWmg6fNfnsEHPZaGjCw/E+p+skZoYGQ==",
+      "type": "package",
+      "path": "nuglify/1.21.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/NUglify.dll",
+        "lib/net35/NUglify.xml",
+        "lib/net40/NUglify.dll",
+        "lib/net40/NUglify.xml",
+        "lib/net5.0/NUglify.dll",
+        "lib/net5.0/NUglify.xml",
+        "lib/netstandard1.3/NUglify.dll",
+        "lib/netstandard1.3/NUglify.xml",
+        "lib/netstandard2.0/NUglify.dll",
+        "lib/netstandard2.0/NUglify.xml",
+        "nuglify.1.21.4.nupkg.sha512",
+        "nuglify.nuspec",
+        "nuglify.png"
+      ]
+    },
     "SixLabors.ImageSharp/3.1.2": {
       "sha512": "PYdR6GUI+gW6LBaAQKTik0Ai8oLpFAz3a/KrVusxoTg3kf7F3cuIqKMhJGsuQcmDHCF+iD81Pyn4cexyHrb1ZA==",
       "type": "package",
@@ -4536,6 +4572,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.1",
+      "NUglify >= 1.21.4",
       "SixLabors.ImageSharp >= 3.1.2",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -4602,6 +4639,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.1, )"
+          },
+          "NUglify": {
+            "target": "Package",
+            "version": "[1.21.4, )"
           },
           "SixLabors.ImageSharp": {
             "target": "Package",

@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[8.0.1, )"
             },
+            "NUglify": {
+              "target": "Package",
+              "version": "[1.21.4, )"
+            },
             "SixLabors.ImageSharp": {
               "target": "Package",
               "version": "[3.1.2, )"
