@@ -9,21 +9,24 @@ namespace AllinTool.Utilities.Helpers
     public class ConversionRates
         {
         public static readonly Dictionary<(string, string), double> distanceConversionRates = new Dictionary<(string, string), double>
-    {
-        {("kilometer", "meter"), 1000 },
-        {("meter", "kilometer"), 1 / 1000.0 },
-        {("kilometer", "centimeter"), 100000 },
-        {("centimeter", "kilometer"), 1 / 100000.0 },
-        {("meter", "centimeter"), 100 },
-        {("centimeter", "meter"), 1 / 100.0 },
-        {("feet", "meter"), 0.3048 },
-        {("meter", "feet"), 1 / 0.3048 },
-        {("inch", "centimeter"), 2.54 },
-        {("centimeter", "inch"), 1 / 2.54 },
-        {("microinch", "inch"), 1 / 1000000.0 },
-        {("mile", "kilometer"), 1.60934 },
-        {("kilometer", "mile"), 1 / 1.60934 },
-    };
+{
+    {("kilometer", "meter"), 1000 },
+    {("meter", "kilometer"), 1 / 1000.0 },
+    {("kilometer", "centimeter"), 100000 },
+    {("centimeter", "kilometer"), 1 / 100000.0 },
+    {("meter", "centimeter"), 100 },
+    {("centimeter", "meter"), 1 / 100.0 },
+    {("feet", "meter"), 0.3048 },
+    {("meter", "feet"), 1 / 0.3048 },
+    {("inch", "centimeter"), 2.54 },
+    {("centimeter", "inch"), 1 / 2.54 },
+    {("microinch", "inch"), 1 / 1000000.0 },
+    {("mile", "kilometer"), 1.60934 },
+    {("kilometer", "mile"), 1 / 1.60934 },
+    {("feet", "centimeter"), 30.48 }, 
+    {("centimeter", "feet"), 1 / 30.48 },
+};
+
 
         public static readonly Dictionary<(string, string), double> areaConversionRates = new Dictionary<(string, string), double>
     {
@@ -43,6 +46,9 @@ namespace AllinTool.Utilities.Helpers
         {("cubicmillimeter", "cubicmeter"), 1 / 1e9 },
         {("cubicmeter", "liter"), 1000 },
         {("liter", "cubicmeter"), 1 / 1000.0 },
+        {("milliliter", "liter"), 0.001 },
+        {("liter", "milliliter"), 1000 },
+
     };
 
         public static readonly Dictionary<(string, string), double> temperatureConversionRates = new Dictionary<(string, string), double>
@@ -69,6 +75,28 @@ namespace AllinTool.Utilities.Helpers
     {
         {("kilogram", "gram"), 1000 },
         {("gram", "kilogram"), 1 / 1000.0 },
+        {("pound", "ounce"), 16 },
+        {("ounce", "pound"), 1 / 16.0 },
+        {("kilogram", "pound"), 2.20462 },
+        {("pound", "kilogram"), 1 / 2.20462 },
+        {("gram", "ounce"), 0.03527396 },
+        {("ounce", "gram"), 1 / 0.03527396 },
+        {("kilogram", "tonne"), 1 / 1000.0 },
+        {("tonne", "kilogram"), 1000 },
+        {("ton", "pound"), 2000 },
+        {("pound", "ton"), 1 / 2000.0 },
+        {("tonne", "gram"), 1e6 },
+        {("gram", "tonne"), 1e-6 },
+        {("ton", "kilogram"), 907.185 },
+        {("kilogram", "ton"), 1 / 907.185 },
+        {("grain", "gram"), 0.06479891 },
+        {("gram", "grain"), 1 / 0.06479891 },
+        {("stone", "pound"), 14 },
+        {("pound", "stone"), 1 / 14.0 },
+        {("carat", "gram"), 0.2 },
+        {("gram", "carat"), 5 },
+
+
     };
 
         public static readonly Dictionary<(string, string), double> powerConversionRates = new Dictionary<(string, string), double>
@@ -101,34 +129,35 @@ namespace AllinTool.Utilities.Helpers
 
         public static readonly Dictionary<(string, string), double> dataSizeConversionRates = new Dictionary<(string, string), double>
     {
-        {("bit", "byte"), 0.125 },
-        {("byte", "kilobyte"), 1 / 1024.0 },
-        {("kilobyte", "megabyte"), 1 / 1024.0 },
-        {("megabyte", "gigabyte"), 1 / 1024.0 },
-        {("gigabyte", "terabyte"), 1 / 1024.0 },
-        {("terabyte", "petabyte"), 1 / 1024.0 },
-        {("petabyte", "exabyte"), 1 / 1024.0 },
-        {("exabyte", "zettabyte"), 1 / 1024.0 },
-        {("zettabyte", "yottabyte"), 1 / 1024.0 },
-        {("bit", "kilobyte"), 1 / 8192.0 },
-        {("bit", "megabyte"), 1 / 8388608.0 },
-        {("kilobyte", "gigabyte"), 1 / 1048576.0 },
-        {("megabyte", "exabyte"), 1 / 1048576.0 },
-        {("byte", "gigabyte"), 1 / (1024.0 * 1024.0) },
-        {("gigabyte", "megabyte"), 1024.0 },
-        {("megabyte", "kilobyte"), 1024.0 },
-        {("kilobyte", "bit"), 8192.0 },
-        {("terabyte", "gigabyte"), 1024.0 },
-        {("petabyte", "gigabyte"), 1024.0 },
-        {("exabyte", "petabyte"), 1024.0 },
-        {("zettabyte", "exabyte"), 1024.0 },
-        {("yottabyte", "zettabyte"), 1024.0 },
-        {("bit", "gigabyte"), 1 / 8589934592.0 },
-        {("kilobyte", "terabyte"), 1 / 1073741824.0 },
-        {("megabyte", "petabyte"), 1 / 1073741824.0 },
-        {("gigabyte", "exabyte"), 1 / 1073741824.0 },
-        {("terabyte", "exabyte"), 1 / 1024.0 },
-        {("petabyte", "zettabyte"), 1 / 1024.0 }
+       {("bit", "byte"), 0.125 },
+{("byte", "kilobyte"), 1 / 1024.0 },
+{("kilobyte", "megabyte"), 1 / 1024.0 },
+{("megabyte", "gigabyte"), 1 / 1024.0 },
+{("gigabyte", "terabyte"), 1 / 1024.0 },
+{("terabyte", "petabyte"), 1 / 1024.0 },
+{("petabyte", "exabyte"), 1 / 1024.0 },
+{("exabyte", "zettabyte"), 1 / 1024.0 },
+{("zettabyte", "yottabyte"), 1 / 1024.0 },
+{("bit", "kilobyte"), 1 / 8192.0 },
+{("bit", "megabyte"), 1 / 8388608.0 },
+{("kilobyte", "gigabyte"), 1 / 1048576.0 },
+{("megabyte", "exabyte"), 1 / 1048576.0 },
+{("byte", "gigabyte"), 1 / (1024.0 * 1024.0) },
+{("gigabyte", "megabyte"), 1024.0 },
+{("megabyte", "kilobyte"), 1024.0 },
+{("kilobyte", "bit"), 8192.0 },
+{("terabyte", "gigabyte"), 1024.0 },
+{("petabyte", "gigabyte"), 1024.0 },
+{("exabyte", "petabyte"), 1024.0 },
+{("zettabyte", "exabyte"), 1024.0 },
+{("yottabyte", "zettabyte"), 1024.0 },
+{("bit", "gigabyte"), 1 / 8589934592.0 },
+{("kilobyte", "terabyte"), 1 / 1073741824.0 },
+{("megabyte", "petabyte"), 1 / 1073741824.0 },
+{("gigabyte", "exabyte"), 1 / 1073741824.0 },
+{("terabyte", "exabyte"), 1 / 1024.0 },
+{("petabyte", "zettabyte"), 1 / 1024.0 }
+
     };
         }
     }
