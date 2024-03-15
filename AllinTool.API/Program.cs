@@ -18,6 +18,7 @@ builder.Services.AddScoped<IUnitConverter, UnitConverter>();
 builder.Services.AddScoped<IBankDetailRepository, BankDetailRepository>();
 builder.Services.AddScoped<IGeographicRepository, GeographicRepository>();
 builder.Services.AddScoped<ITimezoneConverter, TimezoneConverter>();
+builder.Services.AddScoped<ISQLConversionRepository, SQLConversionRepository>();
 
 // Add CORS services.
 builder.Services.AddCors(options =>

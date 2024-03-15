@@ -11,6 +11,6 @@ namespace AllinTool.Data.Repository.Interfaces
         
         {
         string ConvertTime(string fromtimezone, string totimezone, string date);
-        Task<List<TimeZoneDTO>> FetchTimeZones();
+        List<string> FetchTimeZones();
         }
     }

@@ -16,9 +16,11 @@ namespace AllinTool.Data.Mappers
                 
                 CreateMap<GeographicData, GeographicDataDTO>();
                 CreateMap<BankDetail, BankDetailsDTO>();
-                CreateMap<TimeZones, TimeZoneDTO>();
+            CreateMap<List<string>, TimeZoneDTO>()
+            .ForMember(dest => dest.Time_Zone, opt => opt.MapFrom(src => src));
+
 
             }
-       }
+        }
     }
     

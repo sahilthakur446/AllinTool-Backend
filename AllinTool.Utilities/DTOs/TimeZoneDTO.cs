@@ -8,7 +8,7 @@ namespace AllinTool.Utilities.DTOs
     {
     public class TimeZoneDTO
         {
-        public string? Time_Zone { get; set; }
+        public List<string> Time_Zone { get; set; }
 
         }
     }

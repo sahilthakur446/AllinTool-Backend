@@ -47,15 +47,16 @@ namespace AllinTool.Data.Repository.Implementations
             return toTime.ToString("dddd,MMM d,yyyy HH:mm:ss");
             }
 
-        public async Task<List<TimeZoneDTO>> FetchTimeZones()
+        public  List<string> FetchTimeZones()
             {
-            var timeZoneStrings = await context.TimeZoneTable
+            var timeZoneStrings =  context.TimeZoneTable
                                                .Select(x => x.Time_Zone)
-                                               .ToListAsync();
+                                               .Distinct()
+                                               .ToList();
 
-            var timeZoneDTOs = mapper.Map<List<TimeZoneDTO>>(timeZoneStrings);
+            var timeZoneDTOs =  mapper.Map<List<string>>(timeZoneStrings);
             return timeZoneDTOs;
             }
-
+        
         }
     }

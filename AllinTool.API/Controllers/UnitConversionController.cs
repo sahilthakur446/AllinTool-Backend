@@ -38,7 +38,7 @@ namespace AllinTool.API.Controllers
         [HttpGet("AvailableTimeZones")]
         public  IActionResult FetchTimeZones()
             {
-            var availableTimeZones = timezoneConverter.FetchTimeZones(); // Assuming FetchTimeZones returns a list 
+            var availableTimeZones = timezoneConverter.FetchTimeZones();
             return Ok(availableTimeZones);
             }
         }
