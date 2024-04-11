@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AllinTool.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b887183dc696c6238c9af59a82c3c3c0377170a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AllinTool.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AllinTool.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
